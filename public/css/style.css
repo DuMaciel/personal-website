@@ -1,0 +1,22 @@
+.bg-transition {
+  transition: background-color 0.3s ease-in;
+}
+
+.opacity-transition {
+  transition: opacity 0.3s ease-in;
+}
+
+.negative-img {
+  filter: brightness(100);
+}
+
+.photo {
+  border-radius: 5% 5% 20% 20%;
+  max-height: 60vh;
+}
+
+@media (min-width: 768px) {
+  .photo {
+    border-radius: 35% 5%;
+  }
+}
